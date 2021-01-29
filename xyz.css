@@ -188,11 +188,15 @@ span{
     .reviews_wrap{
         display: block;
         text-align: left;
+        padding: 0;
     }
     .review_1_div3{
         margin-top: 1rem;
     }
+    .review_1{
+       
+    }
     .reviews{
-        margin: 1rem 0rem;
+        margin: 2rem 0rem;
     }
 }
