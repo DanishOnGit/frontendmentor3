@@ -154,6 +154,7 @@ span{
     }
     body{
         background-image: url("social-proof-section-master/images/bg-pattern-top-mobile.svg");
+        
     }
 
     .main{
@@ -162,6 +163,7 @@ span{
         text-align: center;
         padding: 1rem;
        margin-top: -12rem;
+       margin-bottom: 1rem;
     }
     .motto{
         width: 100%;
