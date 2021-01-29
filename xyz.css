@@ -15,15 +15,13 @@
 }
 
   body{
-    background-image: url("social-proof-section-master/design/desktop-design.jpg");
-    background-size: cover;
+    background-image: url("social-proof-section-master/images/bg-pattern-top-desktop.svg") ,url("social-proof-section-master/images/bg-pattern-bottom-desktop.svg") ;
     background-repeat: no-repeat;
+    background-position: top left,right 10vw; 
   }
 .main{
-    opacity: 0.5;
     height: 30.3rem;
     width: 70.4rem;
-    border:1px solid black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -34,27 +32,27 @@
 .main-text{
     flex-basis: 50%;
     padding: 2rem 1.5rem 0rem 2rem;
-    background-color: coral;
     height: fit-content;
 }
 h1{
     font-size: 3rem;
     line-height: 3rem;
+    color: var(--Very-Dark-Magenta);
 }
 .motto{
     font-size: 0.9rem;
     width: 85%;
     margin-top: 0.5rem;
-    line-height: 1.5rem
+    line-height: 1.5rem;
+    color: var(--Dark-Grayish-Magenta);
 }
 
 .ratings{
     flex-basis: 50%;
-    background-color: darkgreen;
     height: fit-content;
 }
 .ratings_1{
-    background-color: var(--Dark-Grayish-Magenta);
+    background-color: var(--Light-Grayish-Magenta);
     padding: 0.8rem 2rem;
     width: 75%;
     border-radius: 0.5rem;
@@ -72,7 +70,7 @@ h1{
     margin-left: 4rem;
 }
 .ratings .ratings_alt2{
-    margin-left: 6rem;
+    margin-left: 7.5rem;
 }
 .ratings_1 img{
     padding:0.1rem;
@@ -83,17 +81,13 @@ span{
     position: relative;
     bottom: 0.3rem;
 }
-.reviews{
-   /* flex-basis: 100%; */
-    /* background-color: darkslateblue; */
-}
-.review_1{
-    height:5rem; 
-    min-width: 8rem;
-    background-color:palevioletred;
-    border-radius: 0.5rem;
-    padding:1.5rem;
+
+.reviews_wrap{
     display: flex;
+    padding:0rem 1rem;
+}
+.reviews_wrap div{
+    margin: 0.6rem;
 }
 .person{
     border-radius: 50%;
@@ -104,3 +98,53 @@ span{
     margin-left: 1rem;
     font-size: 0.8rem;
 }
+.name{
+    font-weight: 700;
+    color: var(--White);
+    margin-bottom: 0.3rem;
+}
+.identity{
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--Soft-Pink);
+}
+.review_1{
+    background-color:var(--Very-Dark-Magenta);
+    border-radius: 0.5rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.review_1_div2{
+    flex: 6;
+}
+.review_1_div1{
+    flex: 1;
+}
+
+.review_1_div3{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--White);
+    line-height:1.25rem ;
+    margin-left: 0.5rem;
+}
+.pos1{
+    position: relative;
+    top: 3rem;
+    left: 0.5rem;
+}
+.pos2{
+    position: relative;
+    top: 4rem;
+    left: 0.5rem;
+}
+.pos3{
+    position: relative;
+    top: 5rem;
+    left: 0.5rem;
+}
+
