@@ -49,7 +49,7 @@ h1{
 
 .ratings{
     flex-basis: 50%;
-    height: fit-content;
+   
 }
 .ratings_1{
     background-color: var(--Light-Grayish-Magenta);
@@ -148,3 +148,45 @@ span{
     left: 0.5rem;
 }
 
+@media(max-width:361px){
+    :root{
+        font-size: 10px;
+    }
+
+    .main{
+        height: 15rem;
+        width:35rem;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+       
+    }
+    .motto{
+        width: 100%;
+    }
+    .ratings .ratings_alt1,.ratings .ratings_alt2{
+        margin-left: unset;
+    }
+    .ratings span{
+        display: block;
+        margin: 0.5rem;
+    }
+    .ratings_wrap div{
+        margin: unset;
+        margin: 0.5rem 0rem;
+    }
+    .ratings_1{
+        width: 100%;
+    }
+    .pos1,.pos2,.pos3{
+        position: unset;
+    }
+    .reviews_wrap{
+        display: block;
+        text-align: left;
+    }
+    .reviews_wrap div{
+    
+    }
+}
