@@ -152,15 +152,16 @@ span{
     :root{
         font-size: 10px;
     }
+    body{
+        background-image: url("social-proof-section-master/images/bg-pattern-top-mobile.svg");
+    }
 
     .main{
-        height: 15rem;
         width:35rem;
         display: block;
         text-align: center;
-        justify-content: center;
         padding: 1rem;
-       
+       margin-top: -12rem;
     }
     .motto{
         width: 100%;
@@ -186,7 +187,7 @@ span{
         display: block;
         text-align: left;
     }
-    .reviews_wrap div{
-    
+    .review_1_div3{
+        margin-top: 1rem;
     }
 }
