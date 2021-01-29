@@ -3,15 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.attribution {
-    font-size: 11px;
-    text-align: center;
+
+  body{
+    background: url("FRONTENDMENTOR3/social-proof-section-master/images/bg-pattern-top-desktop.svg") top left no-repeat,url("social-proof-section-master/images/bg-pattern-bottom-desktop.svg")bottom right no-repeat;
+    
   }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-body{
-    background-image: url('social-proof-section-master/design/desktop-design.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.main{
+    height: 30.3rem;
+    width: 60.4rem;
+    border:1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
