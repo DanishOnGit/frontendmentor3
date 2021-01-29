@@ -148,22 +148,20 @@ span{
     left: 0.5rem;
 }
 
-@media(max-width:361px){
+@media(max-width:428px){
     :root{
         font-size: 10px;
     }
     body{
-        background-image: url("social-proof-section-master/images/bg-pattern-top-mobile.svg");
-        
+        background-image: url("social-proof-section-master/images/bg-pattern-top-mobile.svg");     
     }
-
     .main{
         width:35rem;
         display: block;
         text-align: center;
         padding: 1rem;
         height: 100vh;
-        margin:1rem 0rem;
+        margin:2rem 0rem;
     }
     h1{
         line-height: unset;
@@ -179,7 +177,6 @@ span{
         margin: 0.5rem;
     }
     .ratings_wrap div{
-        /* margin: unset; */
         margin: 0.5rem 0rem;
     }
     .ratings_1{
