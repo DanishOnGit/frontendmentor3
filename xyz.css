@@ -193,8 +193,8 @@ span{
     .review_1_div3{
         margin-top: 1rem;
     }
-    .review_1{
-       
+    .reviews_wrap .review_1{
+        margin: 1.2rem 0rem;
     }
     .reviews{
         margin: 2rem 0rem;
